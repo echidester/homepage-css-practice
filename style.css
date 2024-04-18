@@ -33,3 +33,41 @@ body {
   font-size: 0.9rem;
   text-decoration: none;
 }
+
+/* Hero Styling */
+.hero {
+  padding: 3rem 12rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.hero-img {
+  width: 50rem;
+  height: 13rem;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.hero-headline {
+  color: #f9faf8;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hero-subtext {
+  color: #e5e7eb;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 7px;
+  border: none;
+  padding: 7px 20px;
+  color: #e5e7eb;
+  font-weight: bold;
+}
