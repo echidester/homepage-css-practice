@@ -71,3 +71,32 @@ button {
   color: #e5e7eb;
   font-weight: bold;
 }
+
+/* Benefits Section */
+.benefits-section {
+  padding: 0.8rem 12rem;
+  text-align: center;
+}
+
+.benefit-headline {
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.benefits-container {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem 7rem;
+}
+
+.benefit {
+  width: 25%;
+}
+
+.benefit-img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+}
