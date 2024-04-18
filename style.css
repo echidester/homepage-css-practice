@@ -153,3 +153,12 @@ button {
 .cta-box button {
   border: 1px solid white;
 }
+
+/* Footer Section */
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
