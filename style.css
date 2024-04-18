@@ -1,0 +1,34 @@
+body {
+  margin: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+.top-container {
+  background-color: #1f2937;
+}
+
+.navbar {
+  padding: 10px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  height: 3rem;
+  width: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.navbar-links a {
+  color: #e5e7eb;
+  font-size: 14px;
+  text-decoration: none;
+}
