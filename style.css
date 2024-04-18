@@ -120,3 +120,36 @@ button {
   font-weight: bold;
   margin-top: 0;
 }
+
+/* Call To Action Section */
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  padding: 2rem 7rem;
+  border-radius: 7px;
+  display: flex;
+  gap: 5rem;
+}
+
+.cta-headline,
+.cta-text {
+  margin: 0;
+}
+
+.cta-headline {
+  color: white;
+}
+
+.cta-text {
+  color: #e5e7eb;
+}
+
+.cta-box button {
+  border: 1px solid white;
+}
